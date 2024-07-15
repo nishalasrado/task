@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Used to rescal the page based on the device it been opened on -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/5b71452b8d.js" crossorigin="anonymous"></script>
+    <title>Task 2</title>
+    <style>
+        :root {
+            --color-green:#286F6C;
+            --primary-font:'robot';
+            --size-box:500px;
+        }
+        .modules{
+            background: #fff;
+        }
+
+        .circle-box{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background-color: var(--color-green);
+            text-align: center;
+            color: #fff;
+            align-items: center;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: space-evenly;
+        }
+
+        .about-circle {
+            background:var(--color-green);
+            border-radius: 50%;
+            height: 350px;
+            width: 350px;
+            color: #fff;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: space-evenly;
+        }
+
+        .about-circle .content {
+            padding-left: 120px;
+            padding-top: 100px;
+        }
+
+        .about-cirlce2 {
+            background: #daa36b;
+            border-radius: 50%;
+            height: 200px;
+            width: 200px;
+            color: #fff;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: space-evenly;
+            margin-top: -350px;
+            margin-left: -44px;
+        }
+
+        .about .inner {
+            padding-left: 80px;
+        }
+
+        .about .inner .about-circle .arrow-icon {
+            font-size: 2rem;
+
+        }
+        
+    </style>
+</head>
+
+<body class=" container-fluid " style="background-color: #CCD6DE" ;>
+
+    <header class=" card border-0" style="background-color: #FDF3F3;">
+
+        <nav class="navbar navbar-expand-lg" style=" z-index: 1000;">
+            <div class="container-fluid d-flex justify-content-between align-items-center py-4">
+                <a class="navbar-brand " href="#">Peter.com</a>
+
+                <!-- to show the collapsed menu btn -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- the collapsed list to show up -->
+                <div class="collapse navbar-collapse container text-center" id="navbarNav">
+                    <ul class="navbar-nav col-md-6 offset-md-3 justify-content-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+
+                        </li>
+                    </ul>
+                    <a class="nav-link card text-right text-success 
+                col-md-2 justify-content-between  justify-right" , href="#" , style="background-color: #CCD6DE">
+                        +62 896-3157-3120</a>
+                </div>
+            </div>
+        </nav>
+
+
+    </header>
+
+
+
+    <main>
+
+
+        <!-- First Section -->
+        <section class="card border-0" , style="background-color: #FDF3F3">
+
+            <div style="position: relative;
+            
+            left: -20%;
+            top: 20%;
+            text-align: center;
+            
+           ">
+
+                <h1> Hello, im Arata, the Robot </h1>
+
+                <h2 display-4> Father, who Loves Design</h2>
+            </div>
+            <div id="parent" style=" left: -20%;">
+                <div class="green-circle" style=" position: absolute;
+                    top: 10%; 
+                    left: 85%;">
+                </div>
+                <div>
+                    <img src="images/robo.png" style="width: 45vw; 
+                    position: relative;
+                    top: 10%; 
+                    left: 60%;">
+                </div>
+                <!-- <div class="orange-circle" style="position: absolute;
+                    bottom: -25%; 
+                    left: 55%;">
+                </div> -->
+            </div>
+
+
+        </section>
+
+ 
+        <!--Modules section-->
+        <section class="modules pt-5 pb-5">
+           <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="circle-box">
+                            <p style="font-size:x-large">Somthing</p>
+                            <p>something more in the module</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="circle-box">
+                            <p style="font-size:x-large">Somthing</p>
+                            <p>something more in the module</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="circle-box">
+                            <p style="font-size:x-large">Somthing</p>
+                            <p>something more in the module</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="circle-box">
+                            <p style="font-size:x-large">Somthing</p>
+                            <p>something more in the module</p>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </section>
+
+        <section class="about py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="inner ps-5">
+                            <div class="about-circle">
+                                <div class="content">
+                                    <p>aDSAasSA</p>
+                                    <strong>project</strong>
+                                    <a href="#" ><i class="fa fa-arrow-right text-white arrow-icon" ></i></a>
+                                </div>
+                            </div>
+                            <div class="about-cirlce2">
+                                <div class="content">
+                                    <p>asldjasdasd</p>
+                                    <span class="icon"><i class="fa-solid fa-globe"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-12">
+                        <div class="inner-content">
+                            <div class="heading">
+                                <h1>Somehting heading</h1>
+                            </div>
+                            <div class="about-content">
+                                <p>aslkdjlasjdajsldas'ldasdas</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+ 
+    </main>
+
+
+    <footer>
+
+
+    </footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</html>s.my-section {
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 40px 0; /* Padding around the section */
+}
+.circle-box {
+    border: 2px solid #ccc; 
+    border-radius: 50%; 
+    height: 150px; 
+        display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle-box p {
+    font-size: 24px; /* Example font size */
+    font-weight: bold; /* Example font weight *
+    .my-section {
+        background-color: #f0f0f0;
+        padding: 40px 0; 
+    }
+   
